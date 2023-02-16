@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Tourist Site</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Welcome to My Tourist Site</h1>
+	</header>
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
+			<div class="text">Caption Text</div>
+		</div>
+
+		<div class="mySlides fade">
+			<img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
+			<div class="text">Caption Two</div>
+		</div>
+
+		<div class="mySlides fade">
+			<img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
+			<div class="text">Caption Three</div>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br>
+
+	<div class="dot-container">
+		<span class="dot" onclick="currentSlide(1)"></span> 
+		<span class="dot" onclick="currentSlide(2)"></span> 
+		<span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+
+	<main>
+		<section>
+			<h2>About Us</h2>
+			<p>We are a small company that specializes in providing guided tours of the beautiful nature spots in our area. Our guides are experts in the local places in South Sudan, for example Nimule, Shambe and Duk-Padiet, and they love to share their knowledge with visitors.</p>
+		</section>
+
+		<section>
+			<h2>Tour Packages</h2>
+			<ul>
+				<li>Half-day nature hike: $50 per person</li>
+				<li>Full-day nature hike: $75 per person</li>
+				<li>Family nature hike: $100 for a family of four</li>
+			</ul>
+			<p>Please contact us to schedule your tour or for more information.</p>
+		</section>
+
+		<section>
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="date">Tour Date:</label>
+				<input type="date" id="date" name="date" required>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+
+	<script src="slideshow.js"></script>
+</body>
+</html>

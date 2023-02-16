@@ -1,0 +1,59 @@
+/* Header styles */
+header {
+	background-color: #336699;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 2px 2px #222;
+}
+
+/* Main content styles */
+main {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+button {
+	background-color: #336699;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #4682b4;
+}
+
+a.button {
+	display: inline-block;
+	background-color: #336699;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a.button:hover {
+	background-color: #4682b4;
+}

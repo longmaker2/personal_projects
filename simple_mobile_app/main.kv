@@ -1,0 +1,41 @@
+<AddPatientScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Add New Patient Record'
+            font_size: 40
+        TextInput:
+            id: name_input
+            hint_text: 'Name'
+            font_size: 30
+            size_hint_y: None
+            height: 50
+        TextInput:
+            id: dob_input
+            hint_text: 'Date of Birth'
+            font_size: 30
+            size_hint_y: None
+            height: 50
+        TextInput:
+            id: med_history_input
+            hint_text: 'Medical History'
+            font_size: 30
+            size_hint_y: None
+            height: 50
+        TextInput:
+            id: treat_plan_input
+            hint_text: 'Treatment Plan'
+            font_size: 30
+            size_hint_y: None
+            height: 50
+        Button:
+            text: 'Save'
+            font_size: 30
+            size_hint_y: None
+            height: 50
+            on_release: root.save_patient_record()
+
+<PatientRecordApp>:
+    AddPatientScreen:
+        name: 'add_patient'
+
