@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patient Records Form</title>
+    <link rel="stylesheet" href="patient-records.css">
+  </head>
+  <body>
+    <h1>Patient Records Form</h1>
+    <form action="add-patient.php" method="post" id="patient-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="medical-history">Medical History:</label>
+      <textarea id="medical-history" name="medical-history"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <script src="patient-records.js"></script>
+  </body>
+</html>
