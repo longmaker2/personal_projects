@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, my name is Long Maker Long Deng and I am a web developer. I specialize in HTML, CSS, and JavaScript.</p>
+      </section>
+      <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="project1.jpg" alt="Project 1">
+              <h3>Project 1</h3>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="project2.jpg" alt="Project 2">
+              <h3>Project 2</h3>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="project3.jpg" alt="Project 3">
+              <h3>Project 3</h3>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea><br>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
