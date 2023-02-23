@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload Songs and Videos</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Upload Songs and Videos</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Upload</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Upload Your Media</h2>
+			<form>
+				<label for="media">Select File:</label>
+				<input type="file" id="media" name="media"><br><br>
+				<label for="title">Title:</label>
+				<input type="text" id="title" name="title"><br><br>
+				<label for="description">Description:</label>
+				<textarea id="description" name="description"></textarea><br><br>
+				<input type="submit" value="Upload">
+			</form>
+		</section>
+		<section>
+			<h2>Media Player</h2>
+			<audio controls>
+				<source src="audio.mp3" type="audio/mpeg">
+			</audio>
+			<video controls>
+				<source src="video.mp4" type="video/mp4">
+			</video>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 - Upload Songs and Videos</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
