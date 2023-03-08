@@ -11,7 +11,7 @@ from kivy.core.window import Window
 class PatientRecordsApp(App):
     def build(self):
         # Set background color
-        Window.clearcolor = (0.3, 0.3, 0.3, 1)
+        Window.clearcolor = (0.47, 0.79, 0.79)
 
         # Create custom title
         title_layout = GridLayout(cols=1, size_hint=(1, None), height=100)
